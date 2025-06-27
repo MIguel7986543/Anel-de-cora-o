@@ -37,6 +37,10 @@
             eventos += dificuldade;
             Console.Write(eventos + (i < n - 1 ? " " : "\n"));
             dificuldade++;
+
         }
-    }
+        Console.WriteLine("Tecle qualquer tecla para sair");
+        Console.ReadKey();
+    } 
+    
 }
